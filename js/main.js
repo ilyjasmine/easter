@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   var twoDaysFromNow = 1744970400;
 
   // Set up FlipDown
-  var flipdown = new FlipDown(twoDaysFromNow)
   var flipdown = new FlipDown(twoDaysFromNow, {
     theme: "dark"
   })
