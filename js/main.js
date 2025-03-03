@@ -5,7 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Set up FlipDown
   var flipdown = new FlipDown(twoDaysFromNow)
+  var flipdown = new FlipDown(twoDaysFromNow, {
+    theme: "dark"
+  })
 
+      
     // Start the countdown
     .start()
 
