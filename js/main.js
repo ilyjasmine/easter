@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Toggle theme
   var interval = setInterval(() => {
     let body = document.body;
-    body.classList.toggle('light-theme');
+    body.classList.toggle('dark-theme');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
   }, 5000);
