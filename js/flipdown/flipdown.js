@@ -98,14 +98,14 @@ var FlipDown = function () {
       }
 
       return {
-        theme: opt.hasOwnProperty("theme") ? opt.theme : "light",
+        theme: opt.hasOwnProperty("theme") ? opt.theme : "dark",
         headings: headings
       };
     }
   }, {
     key: "_setOptions",
     value: function _setOptions() {
-      this.element.classList.add("flipdown_brok_theme-".concat(this.opts.theme));
+      this.element.classList.add("flipdown__theme-".concat(this.opts.theme));
     }
   }, {
     key: "_init",
