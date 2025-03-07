@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // Unix timestamp (in seconds) to count down to
-  var twoDaysFromNow = 1745004600;
+  var twoDaysFromNow = 1745005200;
 
   // Set up FlipDown
   var flipdown = new FlipDown(twoDaysFromNow)
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
   //}, 5000000);
 
-   Show version number
+// Show version number
   var ver = document.getElementById('ver');
   ver.innerHTML = flipdown.version;
 });
