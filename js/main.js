@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
   //}, 5000000);
 
-  // Show version number
-  //var ver = document.getElementById('ver');
-  //ver.innerHTML = flipdown.version;
-//});
+   Show version number
+  var ver = document.getElementById('ver');
+  ver.innerHTML = flipdown.version;
+});
