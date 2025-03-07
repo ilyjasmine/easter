@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
   // Toggle theme
-  var interval = setInterval(() => {
-    let body = document.body;
-    body.classList.toggle('dark-theme');
-    body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
-    body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-  }, 5000000);
+  //var interval = setInterval(() => {
+    //let body = document.body;
+    //body.classList.toggle('dark-theme');
+    //body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
+    //body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
+  //}, 5000000);
 
   // Show version number
   var ver = document.getElementById('ver');
